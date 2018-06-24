@@ -1,12 +1,9 @@
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .container {
-        max-width: 320px;
-    }
     .inner {
-        max-width: 270px;
+        width: 270px !important;
     }
     .youtube-embed, .youtube-embed iframe {
-        width: 270px;
+        width: 270px !important;
         height: 155px;
     }
 
@@ -27,7 +24,7 @@
         height: 51px;
     }
     .menu-bar .inner {
-        max-width: 320px;
+        width: 320px !important;
     }
     .menu-bar .menu-items {
         padding-top: 16px;
@@ -50,7 +47,7 @@
         margin-bottom: 0;
     }
     .social-links ul {
-        max-width: 178px;
+        width: 178px !important;
         flex-wrap: wrap;
     }
     .social-links li {
@@ -59,36 +56,36 @@
     }
 
     .music .bandcamp-grid {
-        max-width: 270px;
+        width: 270px !important;
         flex-wrap: wrap;
     }
     .music .bandcamp-grid iframe {
-        max-width: 270px;
+        width: 270px !important;
     }
 
     .shows .songkick-embed {
-        max-width: 270px;
+        width: 270px !important;
         flex-wrap: wrap;
     }
     .shows .songkick-embed iframe {
-        max-width: 270px;
+        width: 270px !important;
     }
 
     .youtube-embed {
-        max-width: 270px;
+        width: 270px !important;
         flex-wrap: wrap;
     }
     .videos .youtube-embed iframe {
-        max-width: 270px;
+        width: 270px !important;
     }
     .videos .youtube-grid .youtube-embed {
         padding-bottom: 102px;
     }
     .about .slideshow {
-        max-width: 270px;
+        width: 270px !important;
     }
     .about .slideshow img {
-        max-width: 270px;
+        width: 270px !important;
     }
     .about .quoteshow {
         order: -1;
@@ -112,7 +109,7 @@
         padding: 10px 0;
     }
     .about .inner-flex > * {
-        max-width: 270px;
+        width: 270px !important;
     }
     .about.section .bio p {
         width: auto;
