@@ -1,3 +1,124 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+        max-width: 320px;
+    }
+    .inner {
+        max-width: 270px;
+    }
+    .youtube-embed, .youtube-embed iframe {
+        width: 270px;
+        height: 155px;
+    }
+
+    .container .main h1 {
+        font-size: 36px;
+    }
+
+    .container .menu-bar {
+        height: 84px;
+    }
+    .container .menu-bar .menu-items {
+        padding-top: 13px;
+    }
+    .container .menu-bar .menu-logo {
+        padding-top: 4px;
+    }
+    .container .menu-bar .menu-logo img {
+        height: 51px;
+    }
+    .menu-bar .inner {
+        max-width: 320px;
+    }
+    .menu-bar .menu-items {
+        padding-top: 16px;
+    }
+    .menu-bar .menu-items ul {
+        width: 260px;
+        flex-wrap: wrap;
+        padding-left: 63px;
+        justify-content: space-evenly;
+    }
+    .menu-bar .menu-items li {
+        width: 70px;
+        height: 30px;
+    }
+    .menu-bar .menu-items li a {
+        font-size: 20px;
+    }
+
+    .social-links {
+        margin-bottom: 0;
+    }
+    .social-links ul {
+        max-width: 178px;
+        flex-wrap: wrap;
+    }
+    .social-links li {
+        width: 45px;
+        margin-bottom: 19px;
+    }
+
+    .music .bandcamp-grid {
+        max-width: 270px;
+        flex-wrap: wrap;
+    }
+    .music .bandcamp-grid iframe {
+        max-width: 270px;
+    }
+
+    .shows .songkick-embed {
+        max-width: 270px;
+        flex-wrap: wrap;
+    }
+    .shows .songkick-embed iframe {
+        max-width: 270px;
+    }
+
+    .youtube-embed {
+        max-width: 270px;
+        flex-wrap: wrap;
+    }
+    .videos .youtube-embed iframe {
+        max-width: 270px;
+    }
+    .videos .youtube-grid .youtube-embed {
+        padding-bottom: 102px;
+    }
+    .about .slideshow {
+        max-width: 270px;
+    }
+    .about .slideshow img {
+        max-width: 270px;
+    }
+    .about .quoteshow {
+        order: -1;
+        margin-bottom: 50px;
+    }
+    .about.section .quoteshow .quote {
+        margin: 0 auto;
+        width: 137px;
+        height: auto;
+    }
+    .about.section .quote .border {
+        width: 108px;
+    }
+    .about.section .quoteshow .text {
+        font-size: 14px;
+    }
+    .about.section .quoteshow .source {
+        font-size: 12px;
+    }
+    .about.section .quoteshow .quote-inner {
+        padding: 10px 0;
+    }
+    .about .inner-flex > * {
+        max-width: 270px;
+    }
+    .about.section .bio p {
+        width: auto;
+    }
+}
+
 body, ul, h1 {
     margin: 0;
     padding: 0;
