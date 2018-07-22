@@ -7,8 +7,8 @@
         height: 155px;
     }
 
-    .container .main h1 {
-        font-size: 36px;
+    h1 {
+        font-size: 36px !important;
     }
 
     .container .menu-bar {
