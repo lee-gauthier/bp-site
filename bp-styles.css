@@ -255,9 +255,41 @@ a:hover {
 .bandcamp-grid {
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     width: 812px;
     margin: 0 auto;
+}
+.bandcamp-embed {
+    display: flex;
+    flex-direction: column;
+}
+.bandcamp-embed iframe {
+    margin-bottom: 28px;
+}
+.bandcamp-embed .too-much-info {
+    width: 350px;
+    height: 563px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bandcamp-embed .too-much-info .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.bandcamp-embed .too-much-info .too-much-info-inner {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.bandcamp-embed .too-much-info .heading {
+    font-weight: bold;
+    font-size: 24px;
 }
 .bandcamp-embed .title {
     margin-bottom: 37px;
@@ -308,14 +340,16 @@ a:hover {
 }
 .about .quoteshow {
     width: 270px;
+    display: flex;
 }
 .about .quoteshow .quote {
-    margin: 33px 0 0 auto;
-    height: 242px;
+    margin: 0 0 0 auto;
+    height: 422px;
     width: 241px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: center;
 }
 .about .quote .border {
     width: 212px;
@@ -332,6 +366,7 @@ a:hover {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
+    font-style: initial;
 }
 .about .bio {
     width: 514px;
