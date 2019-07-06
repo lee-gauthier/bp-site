@@ -242,6 +242,9 @@ a:hover {
     width: 812px;
     margin: 0 auto;
 }
+.Main .title {
+    padding-bottom: 42px;
+}
 /* END Main */
 
 /* START Music */
