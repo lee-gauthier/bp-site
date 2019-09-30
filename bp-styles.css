@@ -268,7 +268,7 @@ a:hover {
     margin-bottom: 28px;
 }
 .bandcamp-embed .too-much-info {
-    width: 350px;
+    max-width: 350px;
     height: 563px;
     display: flex;
     flex-direction: column;
