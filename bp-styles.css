@@ -278,6 +278,11 @@ a:hover {
     justify-content: center;
     margin-bottom: 40px;
 }
+.bandcamp-embed .too-much-info .links a {
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 20px;
+}
 .bandcamp-embed .too-much-info .too-much-info-inner {
     height: 255px;
     display: flex;
@@ -288,6 +293,7 @@ a:hover {
 .bandcamp-embed .too-much-info .heading {
     font-weight: bold;
     font-size: 24px;
+    padding-bottom: 18px;
 }
 .bandcamp-embed .title {
     margin-bottom: 37px;
